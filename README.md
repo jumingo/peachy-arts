@@ -1,7 +1,7 @@
 # 🎨 My Artist Portfolio
 
 This is the source code for my personal artist portfolio website, built with HTML, CSS (Tailwind), and GitHub Pages.  
-It showcases my artwork, background, and contact information in a clean and minimalist design.
+It showcases my artwork, background, and contact information!
 
 🌐 **Live Site:** [https://jumingo.github.io/peachy-arts](https://jumingo.github.io/peachy-arts)
 
