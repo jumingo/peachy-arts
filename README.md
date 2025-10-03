@@ -13,18 +13,7 @@ It is designed to be lightweight, responsive, and easy to maintain.
 
 - **Frameworks/Libraries**: HTML, Tailwind CSS  
 - **Hosting**: GitHub Pages (free static hosting)  
-- **Content**: My original artwork, portfolio images, and project details  
-
----
-
-## 🚀 Usage
-If you’d like to build your own portfolio based on this template:  
-
-1. Fork this repository.  
-2. Replace the placeholder text in `index.html` with your own details.  
-3. Add your own images inside the `images/` folder.  
-4. Push to GitHub and enable **GitHub Pages** in the repo settings.  
-
+- **Content**: My original artwork, portfolio images, and project details
 ---
 
 ## Usage
