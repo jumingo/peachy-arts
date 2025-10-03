@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name | Portfolio</title>
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
+  
   <!-- Header -->
-  <header class="p-6 text-center bg-white shadow-md sticky top-0">
+  <header class="p-6 text-center bg-white shadow-md">
     <h1 class="text-3xl font-bold">Your Name</h1>
     <p class="text-gray-600">Artist | Illustrator | Designer</p>
     <nav class="mt-4">
@@ -19,11 +21,12 @@
   </header>
 
   <!-- About -->
-  <section id="about" class="max-w-3xl mx-auto p-8 text-center">
+  <section id="about" class="max-w-2xl mx-auto p-8 text-center">
     <h2 class="text-2xl font-bold mb-4">About Me</h2>
-    <p class="text-gray-700">
-      Write a short bio here about your artistic journey, style, and inspirations.
-      Keep it personal but concise.
+    <p>
+      Hi, I’m an artist passionate about exploring creativity through different mediums.  
+      This portfolio showcases a selection of my artwork, inspirations, and projects.  
+      Thanks for visiting!
     </p>
   </section>
 
@@ -31,32 +34,24 @@
   <section id="gallery" class="p-8 bg-white">
     <h2 class="text-2xl font-bold text-center mb-6">Gallery</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
-      <!-- Example artwork -->
-      <div class="shadow-lg rounded-lg overflow-hidden">
-        <img src="images/art1.jpg" alt="Artwork 1" class="w-full h-auto" />
-      </div>
-      <div class="shadow-lg rounded-lg overflow-hidden">
-        <img src="images/art2.jpg" alt="Artwork 2" class="w-full h-auto" />
-      </div>
-      <div class="shadow-lg rounded-lg overflow-hidden">
-        <img src="images/art3.jpg" alt="Artwork 3" class="w-full h-auto" />
-      </div>
-      <!-- Add more images as needed -->
+      <img src="images/art1.jpg" alt="Artwork 1" class="rounded shadow-md">
+      <img src="images/art2.jpg" alt="Artwork 2" class="rounded shadow-md">
+      <img src="images/art3.jpg" alt="Artwork 3" class="rounded shadow-md">
+      <!-- add more images as needed -->
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="max-w-3xl mx-auto p-8 text-center">
+  <section id="contact" class="max-w-2xl mx-auto p-8 text-center">
     <h2 class="text-2xl font-bold mb-4">Contact</h2>
-    <p class="mb-4">Interested in working together? Reach out:</p>
-    <a href="mailto:yourname@email.com"
-       class="bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700">
-      Email Me
+    <p class="mb-4">Interested in working together? Reach out below:</p>
+    <a href="mailto:yourname@email.com" 
+       class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+       Email Me
     </a>
-    <div class="mt-6 flex justify-center gap-4">
+    <div class="mt-6 flex justify-center space-x-4">
       <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
-      <a href="https://www.linkedin.com/in/yourhandle" target="_blank">LinkedIn</a>
-      <a href="your_resume.pdf" target="_blank">Resume</a>
+      <a href="https://linkedin.com/in/yourhandle" target="_blank">LinkedIn</a>
     </div>
   </section>
 
@@ -64,6 +59,6 @@
   <footer class="p-6 text-center text-gray-500">
     © 2025 Your Name. All Rights Reserved.
   </footer>
+
 </body>
 </html>
-
